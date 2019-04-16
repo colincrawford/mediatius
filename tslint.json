@@ -6,7 +6,7 @@
     ],
     "jsRules": {},
     "rules": {
-        "interface-name": false
+        "ban-types": false
     },
     "rulesDirectory": []
 }
