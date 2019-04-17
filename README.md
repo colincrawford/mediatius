@@ -8,3 +8,4 @@ Add Notifications to Mediator
 
 #### Other  
 Add coverage metric
+Deploy typedoc docs to github pages  
