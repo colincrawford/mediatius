@@ -11,3 +11,5 @@ export function getMockRequestHandler<RequestType, ResponseType>(
 }
 
 export class MockRequest {}
+
+export class MockResponse {}

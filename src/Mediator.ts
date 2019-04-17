@@ -38,10 +38,10 @@ export default class Mediator {
    * @returns that [[IRequestHandler]]s response
    * @throws an error when there is no handler for the [[IRequest]]
    */
-  public async send<ResponseType>(request: IRequest): Promise<ResponseType> {
-    const handler = this.getHandler<typeof request, ResponseType>(
-      request.constructor
-    );
+  public async send<RequestType extends IRequest, ResponseType>(
+    request: RequestType
+  ): Promise<ResponseType> {
+    const handler = this.getHandler<RequestType, ResponseType>(request);
     if (!handler) {
       this.throwMissingHandlerError();
     }
@@ -53,7 +53,7 @@ export default class Mediator {
   }
 
   private getHandler<RequestType, ResponseType>(
-    request: IRequest
+    request: RequestType
   ): IRequestHandler<RequestType, ResponseType> | undefined {
     return this.requestHandlers.get(request.constructor);
   }
