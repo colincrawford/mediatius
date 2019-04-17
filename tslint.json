@@ -6,7 +6,8 @@
     ],
     "jsRules": {},
     "rules": {
-        "ban-types": false
+        "ban-types": false,
+        "max-classes-per-file": false
     },
     "rulesDirectory": []
 }
