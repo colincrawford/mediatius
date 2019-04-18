@@ -7,5 +7,6 @@
 Add Notifications to Mediator
 
 #### Other  
-Add coverage metric
+Add coverage metric  
 Deploy typedoc docs to github pages  
+Make sure javascript compatability is solid  
