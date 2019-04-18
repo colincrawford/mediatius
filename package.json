@@ -1,7 +1,7 @@
 {
-  "name": "cmdbus",
-  "version": "1.0.0",
-  "description": "Simple command bus implimentation in typescript",
+  "name": "mediatius",
+  "version": "0.1.0",
+  "description": "",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
@@ -15,20 +15,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/colinlcrawford/cmdbus.git"
+    "url": "git+https://github.com/colinlcrawford/mediatius.git"
   },
   "keywords": [
     "command",
-    "bus",
+    "query",
     "cqrs",
-    "typescript"
+    "typescript",
+    "mediator"
   ],
   "author": "Colin Crawford <ccolin84@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/colinlcrawford/cmdbus/issues"
+    "url": "https://github.com/colinlcrawford/mediatius/issues"
   },
-  "homepage": "https://github.com/colinlcrawford/cmdbus#readme",
+  "homepage": "https://github.com/colinlcrawford/mediatius#readme",
   "devDependencies": {
     "@types/jest": "^24.0.11",
     "jest": "^24.7.1",
